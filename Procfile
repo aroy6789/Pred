@@ -1,1 +1,1 @@
-web:gunicorn app.py:app
+web:node index.html
