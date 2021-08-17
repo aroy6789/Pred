@@ -1,7 +1,9 @@
 #import libraries
 import numpy as np
-from flask import Flask,request,jsonify,render_template
+from flask import Flask,render_template
 import pickle
+import request
+import jsonify
 
 #Initialize the flask App
 app = Flask(__name__)
